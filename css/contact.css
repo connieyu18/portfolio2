@@ -1,0 +1,116 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+  .wrapper-contact h1{
+      /* color:#C6C1B4; */
+      font-size:38px;
+  }
+  .wrapper-contact{
+      background-color: #F4F6FB;
+      height:auto; 
+      padding:200px;
+  }
+.footer{
+    text-align:center;
+    margin:0px auto; 
+}
+.footer ul{
+    padding:0px;
+}
+.footer h1{
+    color:gray; 
+    margin-top:3%;
+}
+#contactMeButton{
+    background-color:#B0C4DE; 
+    color:white; 
+    font-size:30px;
+    padding:20px;
+    border-radius:3%;
+  }
+
+
+  button[type=submit]{
+      border:none;
+  }
+
+
+
+.fa:before {
+    font-size: 40px;
+    color: #D6E2E8;
+  }
+  .fa-instagram:before {
+    content: "\f16d";
+}
+.list-inline-item {
+    display: inline-block;
+}
+li {
+    line-height: 1.8;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa:before {
+    font-size: 40px;
+    color: #D6E2E8;
+}
+.icon1{
+    font-size:30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .image{ 
+        width:80vw;
+    }
+    .wrapper-contact{
+        padding:20px;
+    }
+}
+
+@media only screen and (min-device-width: 569px) {
+    .image{ 
+        width:200px;
+    }
+    .wrapper-contact{
+        padding:100px;
+    }
+    /* .right-container{
+        width:40vw;
+        text-align:left;
+        margin-left:2%;
+
+    } */
+    /* .right-container, image{
+        display: inline-block;
+        vertical-align:top;
+    }
+    .contact-container {
+        position:relative;
+        /* margin:4% 0px; */
+   
+}
+
+@media (min-width: 768px) {
+    /* .right-container, image{
+        display: inline-block;
+        vertical-align:top;
+    }
+    .right-container{
+        width:80vw;
+    } */
+   
+}
+
+@media (min-width: 970px) {}
