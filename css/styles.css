@@ -118,7 +118,7 @@ section,
 }
 .navbar .nav-link {
   color: #172848 !important;
-  font-weight: bold;
+  font-weight: 700;
   position: relative;
   margin: 0px 1rem;
 }
