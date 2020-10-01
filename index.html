@@ -27,6 +27,7 @@
 
     <!-- Custom Style   -->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/clockstyles.css" rel="stylesheet" />
 
     <!-- ------------ AOS Library ------------------------- -->
     <link rel="stylesheet" href="./css/aos.css" />
@@ -161,7 +162,7 @@
             class="col-md-4"
             data-aos="fade-in"
             data-aos-delay="300"
-            style="margin-top: 100px;"
+            style="margin-top: 100px"
           >
             <!-- <div
               class="img-wrapper flex-column align-items-start content-center"
@@ -308,9 +309,7 @@
 
       <section id="coding" class="coding-section my-5 py-5 text-center">
         <p class="text-gray">PORTFOLIO</p>
-        <h4 class="mb-5">
-          Recent Coding Projects
-        </h4>
+        <h4 class="mb-5">Recent Coding Projects</h4>
         <div class="container">
           <div class="coding row d-flex flex-wrap">
             <div class="col-md-4 my-4">
@@ -440,14 +439,43 @@
         </div>
       </section>
 
-      <div class="small-line mx-auto"></div>
+      <!-------- CLOCK -------->
+
+      <div class="clock-container">
+        <div class="gradient-wrapper">
+          <div class="clock-outer-wrapper">
+            <div class="clock-wrapper">
+              <span class="number one">1</span>
+              <span class="number two">2</span>
+              <span class="number three">3</span>
+              <span class="number four">4</span>
+              <span class="number five">5</span>
+              <span class="number six">6</span>
+              <span class="number seven">7</span>
+              <span class="number eight">8</span>
+              <span class="number nine">9</span>
+              <span class="number ten">10</span>
+              <span class="number eleven">11</span>
+              <span class="number twelve">12</span>
+              <div class="clock-inner-wrapper">
+                <div class="hand hour" id="hour"></div>
+                <div class="hand minute" id="minute"></div>
+                <div class="hand second" id="second"></div>
+                <div class="date">
+                  <span class="month"></span>
+                  <span class="day"></span>
+                  <span class="year"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-------- VIDEO SECTION -------->
       <div class="video mx-5 top-padding text-center" id="video">
         <p class="text-gray">PREVIEWS</p>
-        <h4 class="mb-5">
-          Project Videos
-        </h4>
+        <h4 class="mb-5">Project Videos</h4>
         <div class="row my-5">
           <div class="col-md-6">
             <div class="video-heading">
@@ -509,9 +537,7 @@
       <!-------- UX projects SECTION -------->
       <section id="ux" class="ux-section top-padding text-center">
         <p class="text-gray">PORTFOLIO</p>
-        <h4 class="mb-5">
-          Recent UX Projects
-        </h4>
+        <h4 class="mb-5">Recent UX Projects</h4>
         <div class="container image-left-container text-left my-4">
           <div class="row">
             <div
@@ -521,7 +547,7 @@
             >
               <img
                 alt="lelle-index"
-                style="width: 100%;"
+                style="width: 100%"
                 class="server-image"
                 src="/assets/images/LelleIndex.png"
               />
@@ -554,9 +580,7 @@
           <div class="row">
             <div class="col-md-6 content-center">
               <div>
-                <h3 class="title">
-                  BSM (Board Seat MeetUp) Case Study
-                </h3>
+                <h3 class="title">BSM (Board Seat MeetUp) Case Study</h3>
                 <h6 class="subheading text-left mr-auto my-4">
                   A platform connecting board members to aspiring candidates for
                   a seamless networking experience.
@@ -577,7 +601,7 @@
               data-aos-delay="300"
             >
               <img
-                style="width: 100%;"
+                style="width: 100%"
                 class="server-image"
                 alt="BSM-index"
                 src="/assets/images/BSMIndex.png"
@@ -593,7 +617,7 @@
               data-aos-delay="400"
             >
               <img
-                style="width: 100%;"
+                style="width: 100%"
                 class="server-image"
                 alt="Chase-index"
                 src="/assets/images/chaseIndex.png"
@@ -649,7 +673,7 @@
                 ><strong>Email me</strong></a
               > -->
               <button
-                style="background-color: #b0c4de;"
+                style="background-color: #b0c4de"
                 type="submit"
                 class="btn-custom btn-2 text-white border-0 js-scroll-trigger"
                 id="contactMeButton"
@@ -661,7 +685,7 @@
         </div>
 
         <div class="content-center">
-          <h1 style="color: gray;" class="text-center">
+          <h1 style="color: gray" class="text-center">
             From Connie
             <img
               width="50"
@@ -725,5 +749,8 @@
     <!--Custom JS -->
 
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/Clock.js"></script>
+    <script type="text/javascript" src="js/AnimateHand.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
