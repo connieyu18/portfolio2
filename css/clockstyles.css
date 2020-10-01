@@ -67,7 +67,7 @@
 }
 .hand {
   --rotation: 0deg;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  transform: translate(-50%, -50%) rotate(calc(var(--rotation) * 1deg));
   transform-origin: bottom;
   position: absolute;
   bottom: 50%;
